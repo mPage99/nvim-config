@@ -2,6 +2,13 @@ return {
   {
     "neovim/nvim-lspconfig",
     event = { "BufReadPre", "BufNewFile" },
+    keys = {
+      {
+        "<leader>e",
+        vim.diagnostic.open_float,
+        desc = "Show diagnostics (errors/warnings)"
+      },
+    },
   },
   {
     "williamboman/mason.nvim",
