@@ -8,7 +8,7 @@ return {
     configs.setup({
       ensure_installed = {
         "c", "lua", "vim", "typescript",
-	"vimdoc", "query", "javascript", "html"
+	"vimdoc", "query", "javascript", "html", "go"
       },
       sync_install = false,
       highlight = { enable = true },
