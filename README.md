@@ -28,13 +28,14 @@ Some of the plugins used in this setup include:
 - `L3MON4D3/LuaSnip` — Snippet engine
 
 ## 📁 Structure
-
+```
 ~/.config/nvim
 ├── init.lua # Entry point
 ├── lua/
 │ ├── plugins/ # Lazy plugin definitions
 │ ├── config/ # Custom plugin configs
 │ └── ... # Additional logic & modules
+```
 
 ## 🧰 Requirements
 
